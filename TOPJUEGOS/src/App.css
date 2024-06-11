@@ -10,7 +10,7 @@
 }
 
 body{
-  background-color: aliceblue;
+  background-color: rgb(170, 204, 209);
 }
 
 * {
@@ -33,6 +33,13 @@ body{
     3px 3px 0 black;
 }
 
+.AllLinks{
+  display: flex;
+  gap: 4rem;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
 .AllGames {
   width: 1100px;
   /* background-color: aquamarine;  CHIVATO PARA VER EL CUERPO DE TODOS LOS JUEGOS  */
@@ -45,15 +52,15 @@ body{
 
 .Game {
   width: 350px;
-  height: 350px;
-  background-color: rgba(0, 178, 255, 1);
+  height: 330px;
+  background-color: rgb(69, 138, 165);
   display: flex;
   flex-direction: column;
   align-items: center;
-  border: 3px solid black;
-  border-radius: 20px 20px 20px 20px;
-  -moz-border-radius: 20px 20px 20px 20px;
-  -webkit-border-radius: 20px 20px 20px 20px;
+  border: 1px solid black;
+  border-radius: 10px 10px 10px 10px;
+  -moz-border-radius: 10px 10px 10px 10px;
+  -webkit-border-radius: 10px 10px 10px 10px;
 }
 
 .Image {
@@ -61,7 +68,7 @@ body{
   width: 290px;
   height: 220px;
   margin-bottom: 20px;
-  border: 3px solid black;
+  border: 1px solid black;
   border-radius: 20px 20px 20px 20px;
   -moz-border-radius: 20px 20px 20px 20px;
   -webkit-border-radius: 20px 20px 20px 20px;
@@ -73,7 +80,7 @@ body{
   width: 100%;
   justify-content: space-between;
   width: 290px;
-  font-size: 2rem;
+  font-size: 1.7rem;
 }
 
 .Grade100-90 {
