@@ -1,7 +1,7 @@
 import '../App.css'
 import Link from "../components/Link";
 
-function AllLinks() {
+function AllLinks({onGamesLinkClick, onMultyLinkClick, onSongLinkClick}) {
     const handleGamesClick = event => {
         event.preventDefault()
 
@@ -22,9 +22,17 @@ function AllLinks() {
 
     return <div>
         <ul className='AllLinks'>
-            <Link onClick={handleGamesClick}>Juegos SinglePlayer</Link>
-            <Link onClick={handleMultyClick}>Juegos Multiplayer</Link>
-            <Link onClick={handleSongClick}>Bandas Sonoras</Link>
+            <li>
+                <Link onClick={handleGamesClick}>Juegos SinglePlayer</Link>
+            </li>
+
+            <li>
+                <Link onClick={handleMultyClick}>Juegos Multiplayer</Link>
+            </li>
+
+            <li>
+                <Link onClick={handleSongClick}>Bandas Sonoras</Link>
+            </li>
         </ul>
     </div>
 }
