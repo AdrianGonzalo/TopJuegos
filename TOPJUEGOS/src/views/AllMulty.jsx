@@ -1,11 +1,11 @@
-import '../App.css'
+import './AllSingleMulty.css'
 import Game from './components/Image'
 
 
 function AllMulty() {
 
     return <div>
-        <div className='AllGames'>
+        <div className='All'>
             <Game name='Black Ops III' imageSrc={'/assets/image/imageMulty/BlackOpsIII.jpg'} platform='PS4/PC' hours='1690h' grade='9' />
 
             <Game name='Ark' imageSrc={'/assets/image/imageMulty/Ark.webp'} platform='PC/PS4' hours='1914h' grade='8.5' />

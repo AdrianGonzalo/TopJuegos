@@ -22,83 +22,13 @@ body {
 }
 
 .Title {
-  color: blue;
+  color: dodgerblue;
   font-size: 140px;
   text-align: center;
   margin-bottom: 100px;
   text-shadow:
-    -3px -3px 0 black,
-    3px -3px 0 black,
-    -3px 3px 0 black,
-    3px 3px 0 black;
-}
-
-.AllLinks {
-  display: flex;
-  gap: 4rem;
-  justify-content: center;
-  margin-bottom: 2rem;
-}
-
-.AllGames {
-  display: flex;
-  flex-wrap: wrap;
-  margin: 0 auto;
-  width: 1000px;
-  gap: 1.5rem;
-}
-
-.Game {
-  width: 1000px;
-  height: 200px;
-  background-color: rgb(69, 138, 165);
-  display: flex;
-  border: 1px solid black;
-  border-radius: 10px 10px 10px 10px;
-  -moz-border-radius: 10px 10px 10px 10px;
-  -webkit-border-radius: 10px 10px 10px 10px;
-}
-
-.Image {
-  margin-top: 15px;
-  margin-left: 15px;
-  width: 300px;
-  height: 170px;
-  margin-bottom: 20px;
-  border: 1px solid black;
-  border-radius: 10px 10px 10px 10px;
-  -moz-border-radius: 10px 10px 10px 10px;
-  -webkit-border-radius: 10px 10px 10px 10px;
-  object-fit: cover;
-}
-
-.AllDescription {
-  text-align: center;
-  width: 550px;
-  margin-top: 30px;
-  margin-left: 25px;
-  flex-wrap: wrap;
-
-}
-
-.Name {
-  font-size: 3rem;
-  margin-bottom: 2rem;
-}
-
-
-
-.PlataformAndColor {
-  display: flex;
-  justify-content: space-around;
-  gap: 5rem;
-  font-size: 2rem;
-  margin: 30px;
-
-}
-
-.Footer{
-  text-align: center;
-  margin-top: 2rem;
-  margin-bottom: 2rem;
+      -3px -3px 0 black,
+      3px -3px 0 black,
+      -3px 3px 0 black,
+      3px 3px 0 black;
 }

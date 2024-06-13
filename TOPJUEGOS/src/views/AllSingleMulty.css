@@ -1,0 +1,150 @@
+.All {
+    width: 1000px;
+    display: flex;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.Game {
+    width: 400px;
+    height: 380px;
+    background-color: rgb(77, 153, 184);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 45px;
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    margin-right: 15px;
+    margin-left: 15px;
+    box-shadow: 0px 10px 15px rgb(55, 55, 55);
+}
+
+.Image {
+    background-color: antiquewhite;
+    margin-top: 20px;
+    width: 350px;
+    height: 230px;
+    margin-bottom: 20px;
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    object-fit: cover;
+    box-shadow: 0px 5px 10px rgb(0, 0, 0);
+}
+
+/* 
+object-fit: cover;     
+object-fit: contain; 
+object-fit: fill;  */
+
+.AllDescription {
+
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    width: 290px;
+    font-size: 1.5rem;
+    flex-wrap: wrap;
+}
+
+.Name {
+    text-align: center;
+    font-size: 1.7rem;
+    width: 100%;
+}
+
+.PlataformAndColor {
+    display: flex;
+    justify-content: space-around;
+    gap: 3rem;
+    font-size: 1.3rem;
+    margin-top: 1rem;
+
+}
+
+.Footer {
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .AllSingleMulty {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    width: 1000px;
+    margin-bottom: 2rem;
+}
+
+.Game {
+    width: 1000px;
+    height: 200px;
+    background-color: rgb(69, 138, 165);
+    display: flex;
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    box-shadow: 0px 10px 15px rgb(55, 55, 55);
+}
+
+.Image {
+    margin-top: 15px;
+    margin-left: 15px;
+    width: 300px;
+    height: 170px;
+    margin-bottom: 20px;
+    border: 1px solid black;
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    object-fit: cover;
+}
+
+.AllDescription {
+    text-align: center;
+    width: 550px;
+    margin-top: 30px;
+    margin-left: 25px;
+    flex-wrap: wrap;
+
+}
+
+.Name {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
+
+
+.PlataformAndColor {
+    display: flex;
+    justify-content: space-around;
+    gap: 5rem;
+    font-size: 2rem;
+    margin: 30px;
+
+}
+
+.Footer {
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+} */

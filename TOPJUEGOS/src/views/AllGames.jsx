@@ -1,10 +1,10 @@
-import '../App.css'
+import './AllSingleMulty.css'
 import Game from './components/Image'
 
 function AllGames() {
 
     return <div>
-        <div className='AllGames'>
+        <div className='All'>
             <Game name='Baldurs Gate 3' imageSrc={'/assets/image/imageSingle/BaldursGate3.avif'} platform='PC' hours='329h' grade='10'/>
 
             <Game name='Mass Effect' imageSrc={'/assets/image/imageSingle/MassEffect.jpg'} platform='PC' hours='81h' grade='10'/>
@@ -23,7 +23,7 @@ function AllGames() {
 
             <Game name='Beyond Two Souls' imageSrc={'/assets/image/imageSingle/BeyondTwoSouls.avif'} platform='PS3/PS4/PC' hours='57h' grade='8.5'/>
 
-            <Game name='Portal 2' imageSrc={'/assets/image/imageSingle/Portal2.jpg'} platform='PC' hours='13h' grade='8.5'/>
+            <Game name='Portal' imageSrc={'/assets/image/imageSingle/Portal2.jpg'} platform='PC' hours='13h' grade='8.5'/>
 
             <Game name='For The Wicked' imageSrc={'/assets/image/imageSingle/NoRestFor.jpg'} platform='PC' hours='32h' grade='8'/>
 
@@ -61,7 +61,7 @@ function AllGames() {
 
             <Game name='Green Hell' imageSrc={'/assets/image/imageSingle/GreenHell.webp'} platform='PC' hours='20h' grade='7.5'/>
 
-            <Game name='Magic: The Gathering' imageSrc={'/assets/image/imageSingle/Magic.jpg'} platform='PC' hours='141h' grade='7.5'/>
+            <Game name='Magic' imageSrc={'/assets/image/imageSingle/Magic.jpg'} platform='PC' hours='141h' grade='7.5'/>
 
             <Game name='Mario Galaxy' imageSrc={'/assets/image/imageSingle/MarioGalaxy.jfif'} platform='WII' hours='28h' grade='7.5'/>
 

@@ -1,8 +1,8 @@
 import './Link.css'
 
-function Link({ onClick, children }) {
+function Link({ className, onClick, children }) {
     return (
-        <a href="#" className='Link' onClick={onClick}>
+        <a href="#" className={className} onClick={onClick}>
             {children}
         </a>
     );
