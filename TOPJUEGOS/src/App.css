@@ -9,7 +9,7 @@
   --sixth-color: ;
 }
 
-body{
+body {
   background-color: rgb(170, 204, 209);
 }
 
@@ -33,7 +33,7 @@ body{
     3px 3px 0 black;
 }
 
-.AllLinks{
+.AllLinks {
   display: flex;
   gap: 4rem;
   justify-content: center;
@@ -41,22 +41,18 @@ body{
 }
 
 .AllGames {
-  width: 1100px;
-  /* background-color: aquamarine;  CHIVATO PARA VER EL CUERPO DE TODOS LOS JUEGOS  */
-  margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  margin: 0 auto;
+  width: 1000px;
   gap: 1.5rem;
 }
 
 .Game {
-  width: 350px;
-  height: 330px;
+  width: 1000px;
+  height: 200px;
   background-color: rgb(69, 138, 165);
   display: flex;
-  flex-direction: column;
-  align-items: center;
   border: 1px solid black;
   border-radius: 10px 10px 10px 10px;
   -moz-border-radius: 10px 10px 10px 10px;
@@ -64,21 +60,45 @@ body{
 }
 
 .Image {
-  margin-top: 30px;
-  width: 290px;
-  height: 220px;
+  margin-top: 15px;
+  margin-left: 15px;
+  width: 300px;
+  height: 170px;
   margin-bottom: 20px;
   border: 1px solid black;
-  border-radius: 20px 20px 20px 20px;
-  -moz-border-radius: 20px 20px 20px 20px;
-  -webkit-border-radius: 20px 20px 20px 20px;
+  border-radius: 10px 10px 10px 10px;
+  -moz-border-radius: 10px 10px 10px 10px;
+  -webkit-border-radius: 10px 10px 10px 10px;
   object-fit: cover;
 }
 
 .AllDescription {
+  text-align: center;
+  width: 550px;
+  margin-top: 30px;
+  margin-left: 25px;
+  flex-wrap: wrap;
+
+}
+
+.Name {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+
+
+
+.PlataformAndColor {
   display: flex;
-  width: 100%;
-  justify-content: space-between;
-  width: 290px;
-  font-size: 1.7rem;
+  justify-content: space-around;
+  gap: 5rem;
+  font-size: 2rem;
+  margin: 30px;
+
+}
+
+.Footer{
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }

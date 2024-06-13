@@ -27,6 +27,8 @@ function App() {
         {view === 'juegosMultiplayer' && <AllMulty onMultyLinkClick={handleMultyClick}/>}
 
         {view === 'juegosSong' && <AllSongs onSongLinkClick={handleSongClick}/>}
+
+        <p className='Footer'>Updated as of 13/06/2024 & programmed by Adrian</p>
     </>
 }
 

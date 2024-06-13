@@ -1,16 +1,15 @@
-
 import './Color.css'
 
 function AddColorGrade(grade) {
-    if(grade >= 90){
+    if(grade >= 9){
         return 'Grade100-90'
-    }else if(grade >= 70){
+    }else if(grade >= 7){
         return 'Grade80-70'
-    }else if(grade >= 60){
+    }else if(grade >= 6){
         return 'Grade60'
-    }else if(grade >= 50){
+    }else if(grade >= 5){
         return 'Grade50'
-    }else if(grade >= 30){
+    }else if(grade >= 3){
         return 'Grade40-30'
     }else{
         return 'Grade20-0'
