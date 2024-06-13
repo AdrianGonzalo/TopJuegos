@@ -5,7 +5,8 @@ function Song(){
   return <div className="AllSong">
       <audio className='Song'
         controls
-        src="/assets/soundtrack/BaldursGateRaphael.mp3"
+        src="/assets/soundtrack/BaldursGateAct1.mp3"
+        // src="/assets/soundtrack/BaldursGateRaphael.mp3"
       /> 
     </div> 
 

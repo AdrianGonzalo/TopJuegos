@@ -1,7 +1,9 @@
-.AllSong {
-    
-  }
-
 .Song{
-    
+    width: 400px;
+
+}
+
+.Song>src {
+
+  background-color: blueviolet;
 }
