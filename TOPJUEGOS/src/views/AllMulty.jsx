@@ -10,7 +10,7 @@ function AllMulty() {
 
             <Game name='Ark' imageSrc={'/assets/image/imageMulty/Ark.webp'} platform='PC/PS4' hours='1914h' grade='8.5' />
 
-            <Game name='Overwacht' imageSrc={'/assets/image/imageMulty/Overwacht.png'} platform='PC/PS4' hours='462h' grade='8' />
+            <Game name='Overwacht' imageSrc={'/assets/image/imageMulty/Overwacht.png'} platform='PC/PS4' hours='540h' grade='8' />
 
             <Game name='Fortnite' imageSrc={'/assets/image/imageMulty/Fortnite.jfif'} platform='PC/PS4' hours='324h' grade='8' />
 

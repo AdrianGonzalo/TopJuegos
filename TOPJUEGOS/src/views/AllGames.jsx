@@ -43,6 +43,8 @@ function AllGames() {
 
             <Game name='7 Days to Die' imageSrc={'/assets/image/imageSingle/Dead.jpg'} platform='PC' hours='26h' grade='8' />
 
+            <Game name='Starcraft II' imageSrc={'/assets/image/imageSingle/Starcraft.avif'} platform='PC' hours='128h' grade='8' />
+
             <Game name='Detroit' imageSrc={'/assets/image/imageSingle/Detroit.avif'} platform='PC' hours='9h' grade='7.5' />
 
             <Game name='Inazuma Eleven' imageSrc={'/assets/image/imageSingle/Inazuma.jpg'} platform='DS' hours='232h' grade='7.5' />
@@ -56,8 +58,6 @@ function AllGames() {
             <Game name='Proyect Zomboid' imageSrc={'/assets/image/imageSingle/Proyect.jpeg'} platform='PC' hours='62h' grade='7.5' />
 
             <Game name='Mario64' imageSrc={'/assets/image/imageSingle/Mario.webp'} platform='DS/TFN/PC' hours='72' grade='7.5' />
-
-            <Game name='Starcraft II' imageSrc={'/assets/image/imageSingle/Starcraft.avif'} platform='PC' hours='128h' grade='7.5' />
 
             <Game name='A Plague Tale' imageSrc={'/assets/image/imageSingle/Plague.webp'} platform='PC' hours='16h' grade='7.5' />
 
