@@ -16,6 +16,8 @@ function AllMulty() {
 
             <Game name='Raimbow Six' imageSrc={'/assets/image/imageMulty/Raimbow.jfif'} platform='PC/PS4' hours='381h' grade='8' />
 
+            <Game name='GTAV' imageSrc={'/assets/image/imageMulty/GTAV.webp'} platform='PS4' hours='291h' grade='8' />
+
             <Game name='Counter Strike' imageSrc={'/assets/image/imageMulty/Counter.png'} platform='PC' hours='140h' grade='8' />
 
             <Game name='Hell Divers' imageSrc={'/assets/image/imageMulty/Hell.avif'} platform='PC' hours='67h' grade='8' />

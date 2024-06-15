@@ -7,7 +7,6 @@ function AllLinks({onGamesLinkClick, onMultyLinkClick, onSongLinkClick}) {
     const [link, setLink] = useState('Link')
 
 
-
     const handleGamesClick = event => {
         event.preventDefault()
 

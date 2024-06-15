@@ -1,7 +1,6 @@
 import React from 'react';
-import './Image.css'
 import AddColorGrade from './Color';
-import '../AllSingleMulty.css'
+
 
 function Game({ name, imageSrc, grade, hours, platform }) {
   const colorGrade = AddColorGrade(grade)
