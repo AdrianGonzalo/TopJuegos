@@ -1,0 +1,25 @@
+.AllLinks{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 4rem;
+    justify-content: center;
+    margin-bottom: 2rem;
+    list-style-type: none; 
+}
+
+.Link {
+    text-decoration: none;
+    color:rgb(0, 0, 112);
+    cursor: pointer;
+    font-size: 1.5rem;
+    transition: 0.5s;
+}
+
+.Link:hover{
+    color: dodgerblue;
+}
+
+.ColorUp{
+    color: dodgerblue;
+}

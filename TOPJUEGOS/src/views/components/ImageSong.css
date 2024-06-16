@@ -1,0 +1,66 @@
+.AllImageSongs{
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    background-color: rgb(77, 153, 184);
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    box-shadow: 0px 10px 15px rgb(55, 55, 55);
+    margin-bottom: 4rem;
+}
+
+.ImageSong{
+    width: 900px;
+    margin-top: 50px;
+    margin-left: 50px ;
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    filter: drop-shadow(0px 5px 10px black )
+}
+
+
+.NameGame{
+    color: dodgerblue;
+    text-shadow:
+      -2px -2px 0 black,
+      2px -2px 0 black,
+      -2px 2px 0 black,
+      2px 2px 0 black;
+    font-size: 4rem;
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+}
+
+.PAudio{
+    align-items: center;
+    width: 800px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.AllDescriptionSong{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.NameSong{
+    font-size: 2rem;
+    margin-right: 4rem;
+    margin-bottom: 2rem;
+}
+
+.SongCounter{
+    width:300px;
+    background-color: aliceblue;
+    border-radius:15px 15px 15px 15px;
+    box-shadow: 0px 5px 10px rgb(59, 59, 59);
+}

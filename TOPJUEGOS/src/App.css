@@ -9,8 +9,8 @@
   --sixth-color: ;
 }
 
-body{
-  background-color: aliceblue;
+body {
+  background-color: rgb(170, 204, 209);
 }
 
 * {
@@ -22,104 +22,13 @@ body{
 }
 
 .Title {
-  color: blue;
+  color: dodgerblue;
   font-size: 140px;
   text-align: center;
   margin-bottom: 100px;
   text-shadow:
-    -3px -3px 0 black,
-    3px -3px 0 black,
-    -3px 3px 0 black,
-    3px 3px 0 black;
-}
-
-.AllGames {
-  width: 1100px;
-  /* background-color: aquamarine;  CHIVATO PARA VER EL CUERPO DE TODOS LOS JUEGOS  */
-  margin: 0 auto;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  gap: 1.5rem;
-}
-
-.Game {
-  width: 350px;
-  height: 350px;
-  background-color: rgba(0, 178, 255, 1);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  border: 3px solid black;
-  border-radius: 20px 20px 20px 20px;
-  -moz-border-radius: 20px 20px 20px 20px;
-  -webkit-border-radius: 20px 20px 20px 20px;
-}
-
-.Image {
-  margin-top: 30px;
-  width: 290px;
-  height: 220px;
-  margin-bottom: 20px;
-  border: 3px solid black;
-  border-radius: 20px 20px 20px 20px;
-  -moz-border-radius: 20px 20px 20px 20px;
-  -webkit-border-radius: 20px 20px 20px 20px;
-  object-fit: cover;
-}
-
-.AllDescription {
-  display: flex;
-  width: 100%;
-  justify-content: space-between;
-  width: 290px;
-  font-size: 2rem;
-}
-
-.Grade100-90 {
-  color: rgb(9, 255, 0);
-  text-shadow: -1px -1px 0 black,
-    1px -1px 0 black,
-    -1px 1px 0 black,
-    1px 1px 0 black;
-}
-
-.Grade80-70 {
-  color: rgb(208, 255, 0);
-  text-shadow: -1px -1px 0 black,
-    1px -1px 0 black,
-    -1px 1px 0 black,
-    1px 1px 0 black;
-}
-
-.Grade60 {
-  color: rgb(251, 255, 0);
-  text-shadow: -1px -1px 0 black,
-    1px -1px 0 black,
-    -1px 1px 0 black,
-    1px 1px 0 black;
-}
-
-.Grade50 {
-  color: rgb(255, 166, 0);
-  text-shadow: -1px -1px 0 black,
-    1px -1px 0 black,
-    -1px 1px 0 black,
-    1px 1px 0 black;
-}
-
-.Grade40-30 {
-  color: rgb(255, 81, 0);
-  text-shadow: -1px -1px 0 black,
-    1px -1px 0 black,
-    -1px 1px 0 black,
-    1px 1px 0 black;
-}
-
-.Grade20-0 {
-  color: rgb(255, 0, 0);
-  text-shadow: -1px -1px 0 black,
-    1px -1px 0 black,
-    -1px 1px 0 black,
-    1px 1px 0 black;
+      -3px -3px 0 black,
+      3px -3px 0 black,
+      -3px 3px 0 black,
+      3px 3px 0 black;
 }
